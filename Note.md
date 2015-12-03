@@ -2,10 +2,10 @@ Coding Notes
 ------
 ##### `Node.js`
 		1. More understand what exports means in module:
-	exports(for example: exports.xxx) is a <b> reference </b> to the value of <b>module.exports</b>
-	real exporting is <b>module.exports</b> (if they have different values)
-		2. Use keyword <b>const</b> and <b>let</b> instead of var to find the bugs easier.
-		3. Use Function_Name.<b>prototype</b>.member_Name to make this member becomes <b>private</b>.
+			exports(for example: exports.xxx) is a REFERENCE to the value of MODULE.EXPORTS</b>
+			REAL exporting is MODULE.EXPORTS(if they have different values)
+		2. Use keyword CONST and LET instead of var to find the bugs easier.
+		3. Use Function_Name.PROTOTYPE.member_Name to make this member becomes PRIVATE.
 		4. continue///
 
 ##### `Mongodb`
