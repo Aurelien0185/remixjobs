@@ -9,7 +9,12 @@ real exporting is `module.exports`(if they have different values).
 4. continue///
 
 ##### Mongodb
-1. Mongoose
+1. What is **Mongoose**?  
+It is an **odm**(object-document mapping). More simple, it is a thing that translates an document to an object, and vice versa.  
+For example, we can call:  
+`.connect('xxx')`  
+`.connection.XXX`  
+`.Schema({name:String, email:{type: String, lowercase: true}})`
 
 
 
