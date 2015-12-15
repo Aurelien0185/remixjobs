@@ -15,16 +15,26 @@ All copyright ownes by  `RemixJobs`. This is just an exercise, not allowed for b
 
 ## Routers
 
-Get: Return all jobs: **/jobs**  
-Get: Create a new job: **/jobs/creation**  
-Post: Create a new job:  **/jobs/creation**  
-Get: Show the details of a job: **/jobs/details/***  
-Get: update a job: **jobs/updates/***  
-Post: update a job: **jobs/updates**  
-Get: display latest job: **/jobs/latest**
+GET: Return all jobs --> **/jobs**  
+ex. `http://localhost:3000/jobs`  
 
-Get: Return all companies: **/companies/**  
-Get: Return all jobs of a given company: **/companies/***
+POST: Create a new job --> **/jobs?job={json_string}**  
+ex. `http://localhost:3000/jobs?job={"title":1, "company":2,"contract":3}`  
+
+GET: Return information of a job --> **/jobs/details/:id**  
+ex. `http://localhost:3000/jobs/details/567004142c33a91102c200b0`  
+
+PUT: Update a job --> **jobs/:id**  
+ex. `http://localhost:3000/jobs/567004142c33a91102c200b0?contract=CDD`  
+
+GET: Return all jobs of the current day --> **jobs/updates**  
+ex. `http://localhost:3000/jobs/latest`
+
+GET: Return all companies --> **/companies/**  
+ex. `http://localhost:3000/companies`  
+
+GET: Return all jobs of a given company --> **/companies/:company**  
+ex. `http://localhost:3000/companies/Parrot`
 
 Program-level Use:  
 Scrape data:  **/scrape**  
