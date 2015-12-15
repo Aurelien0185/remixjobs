@@ -26,11 +26,13 @@ ex. `http://localhost:3000/jobs/details/567004142c33a91102c200b0`
 
 PUT: Update a job --> **jobs/:id**  
 ex. `http://localhost:3000/jobs/567004142c33a91102c200b0?contract=CDD`  
+
 GET: Return all jobs of the current day --> **jobs/updates**  
 ex. `http://localhost:3000/jobs/latest`
 
 GET: Return all companies --> **/companies/**  
 ex. `http://localhost:3000/companies`  
+
 GET: Return all jobs of a given company --> **/companies/:company**  
 ex. `http://localhost:3000/companies/Parrot`
 
