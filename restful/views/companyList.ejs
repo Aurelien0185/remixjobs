@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!-- empty -->
+        <meta name="Language" content="fr" />
+        <title>
+            Emploi informatique et recrutement freelance - RemixJobs
+        </title>
+        <link href="https://d20j79yoy9sq5.cloudfront.net/assets/0/css/1b5eddb.css?0" rel="stylesheet" />
+        <link href="https://d20j79yoy9sq5.cloudfront.net/assets/0/css/43e5d30.css?0" rel="stylesheet" />
+        <link rel="stylesheet" href="https://d20j79yoy9sq5.cloudfront.net/assets/0/css/ca2d2d1.css?0" />
+        <link rel="alternate" type="application/rss+xml" title="Remixjobs, le site d'emploi sp&eacute;cialis&eacute; dans les m&eacute;tiers du web et de l'informatique" href="https://remixjobs.com/rss" />
+        <link rel="alternate" type="application/rss+xml" id="link-for-search-rss" href="https://remixjobs.com/rss" title="Remixjobs: Nos derni&egrave;res annonces en CDI/CDD/Freelance/St" />
+        <!--[if lt IE 9]>
+         <script src="https://d20j79yoy9sq5.cloudfront.net/assets/0/js/0ed8706.js?0"></script>
+         <![endif]-->
+        <link rel="icon" href="https://d20j79yoy9sq5.cloudfront.net/assets/0/themed/blue/images/favicon-remixjobs.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <!-- End Google Tag Manager -->
+        <div id="topbar">
+            <a class="service" href="#">Tous nos services</a>
+            <div class="service-dropdown">
+                <h3>Nos services</h3>
+                <ul>
+                    <li class="yellow"> <a href="/employer/wizard?utm_source=remixjobs.com&amp;utm_medium=nos_offres&amp;utm_campaign=remixjobs"> Poster une offre <span>Trouver le bon talent d&egrave;s maintenant</span> </a> </li>
+                    <li class="pink"> <a href="http://cvtheque.remixjobs.com/"> Cvth&egrave;que <span>Parcourez plus de 40 000 profils de d&eacute;veloppeurs</span> </a> </li>
+                    <li class="green"> <a href="http://remixjobsday.com" title="Evenements Remixjobs"> Recruter durant nos &Eacute;v&eacute;nements <span>Rencontre entre d&eacute;veloppeurs et startups</span> </a> </li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <a class="login" href="#">Connexion</a>
+            </div>
+        </div>
+        <header class="site-header">
+            <div class="wrapper holder">
+                <a class="logo" href="/jobs"> <img src="https://d20j79yoy9sq5.cloudfront.net/assets/0/themed/blue/images/logo-remixjobs.png" alt="remixjobs" /> </a>
+                <div class="header-links">
+                    <!-- - if not is_granted('ROLE_MEMBER') -->
+                    <!-- %a.signin(href=path("rj_core_login", { 'redirect': '/account' })) = "header.sign.in.link"|trans -->
+                    <a class="recuit" href="/jobs/creation">Cr&eacute;er un annonce</a>
+                </div>
+            </div>
+        </header>
+        <section id="headtitle">
+            <div class="wrapper">
+                <h5 class="headtitle-title"> <strong>Counterfeit</strong> Offres d'Emploi <strong>Web</strong> <span class="and">&amp;</span> Recrutements <strong>Freelance</strong>. </h5>
+            </div>
+        </section>
+        <div class="large-banner">
+        </div>
+        <section id="content">
+            <div class="wrapper clearfix special public_index_index">
+                <table class="job-categories clearfix" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td class="job-category first-cell current"> <a class="job-category-link" href="/" data-category-name="all">Tous</a> </td>
+                            <td class="job-category "> <a class="job-category-link" href="/?in=Design" data-category-name="Design">Design</a> </td>
+                            <td class="job-category "> <a class="job-category-link" href="/?in=D%C3%A9veloppement" data-category-name="D&eacute;veloppement">D&eacute;veloppement</a> </td>
+                            <td class="job-category "> <a class="job-category-link" href="/?in=Seo" data-category-name="Seo">Seo/sem</a> </td>
+                            <td class="job-category "> <a class="job-category-link" href="/?in=Projets" data-category-name="Projets">Gestion de projets</a> </td>
+                            <td class="job-category "> <a class="job-category-link" href="/?in=Marketing" data-category-name="Marketing">Marketing</a> </td>
+                            <td class="job-category "> <a class="job-category-link" href="/?in=R%C3%A9seau" data-category-name="R&eacute;seau">R&eacute;seau</a> </td>
+                            <td class="job-category "> <a class="job-category-link" href="/?in=Autres" data-category-name="Autres">Autres</a> </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form class="search-form">
+                    <div class="top-search-form">
+                        <div class="top-search-form-part top-search-form-part-left">
+                            <div class="top-search-form-txt-wrapper top-search-form-txt-wrapper-left">
+                                <input id="search_keywords" type="hidden" />
+                                <input id="search_keywords_instant" class="has-placeholder" name="keyword" type="text" />
+                                <label class="form-placeholder" for="search_keywords_instant">Nom du poste, mot cl&eacute;, soci&eacute;t&eacute;, …</label>
+                                <div class="align-helper"></div>
+                            </div>
+                        </div>
+                        <div class="top-search-form-part top-search-form-part-right">
+                            <div class="top-search-form-txt-wrapper top-search-form-txt-wrapper-right">
+                                <input id="search_geoloc" class="has-placeholder" name="location" type="text" />
+                                <label class="form-placeholder" for="search_geoloc">Lieu</label>
+                                <div id="search_geoloc_distance">
+                                    <div class="dist-choices">
+                                        <b>Distance max&nbsp;:</b>
+                                        <div>
+                                            <input class="dist-radio" type="radio" value="5" name="search_geoloc_dist" id="dist-5" />
+                                            <label class="dist-label" for="dist-5">5km</label>
+                                        </div>
+                                        <div>
+                                            <input class="dist-radio" type="radio" value="10" name="search_geoloc_dist" id="dist-10" />
+                                            <label class="dist-label" for="dist-10">10km</label>
+                                        </div>
+                                        <div>
+                                            <input class="dist-radio" type="radio" value="20" name="search_geoloc_dist" id="dist-20" />
+                                            <label class="dist-label" for="dist-20">20km</label>
+                                        </div>
+                                        <div>
+                                            <input class="dist-radio" type="radio" value="50" name="search_geoloc_dist" id="dist-50" />
+                                            <label class="dist-label" for="dist-50">50km</label>
+                                        </div>
+                                        <div>
+                                            <input class="dist-radio" type="radio" value="100" name="search_geoloc_dist" id="dist-100" />
+                                            <label class="dist-label" for="dist-100">100km</label>
+                                        </div>
+                                        <div>
+                                            <input class="dist-radio" type="radio" value="200" checked="checked" name="search_geoloc_dist" id="dist-200" />
+                                            <label class="dist-label" for="dist-200">200km</label>
+                                        </div>
+                                        <div>
+                                            <input class="dist-radio" type="radio" value="2000" name="search_geoloc_dist" id="dist-2000" />
+                                            <label class="dist-label" for="dist-2000">200+</label>
+                                        </div>
+                                    </div>
+                                    <a class="search-geoloc-distance-link" href="#" tabindex="-1"> <span class="search-geoloc-distance-label" data-default="Distance">200km</span> <span class="bottom-border"></span> </a>
+                                </div>
+                                <img class="loading-img" src="https://d20j79yoy9sq5.cloudfront.net/assets/0/images/load-38-0.gif?0" alt="loading" />
+                                <div class="align-helper"></div>
+                            </div>
+                        </div>
+                        <input type="hidden" name="search_geoloc_lat" id="search_geoloc_lat" />
+                        <input type="hidden" name="search_geoloc_lng" id="search_geoloc_lng" />
+                    </div>
+                    <div class="left-column">
+                        <div class="filter">
+                            <div class="job-type-checkboxes inline">
+                                <div class="fl-right">
+                                    <input class="form-input-checkbox" name="telework" id="telework" type="checkbox" />
+                                    <label class="form-checkbox-label-right" for="telework"> T&eacute;l&eacute;travail </label>
+                                </div>
+                                <input class="form-input-checkbox" name="search_contract_type" id="search_contract_type-CDD" type="checkbox" value="CDD" data-type-id="CDD" checked="checked" />
+                                <label class="form-checkbox-label-right" for="search_contract_type-CDD"> CDD </label>
+                                <input class="form-input-checkbox" name="search_contract_type" id="search_contract_type-CDI" type="checkbox" value="CDI" data-type-id="CDI" checked="checked" />
+                                <label class="form-checkbox-label-right" for="search_contract_type-CDI"> CDI </label>
+                                <input class="form-input-checkbox" name="search_contract_type" id="search_contract_type-Stage" type="checkbox" value="Stage" data-type-id="Stage" checked="checked" />
+                                <label class="form-checkbox-label-right" for="search_contract_type-Stage"> Stage </label>
+                                <input class="form-input-checkbox" name="search_contract_type" id="search_contract_type-Freelance" type="checkbox" value="Freelance" data-type-id="Freelance" checked="checked" />
+                                <label class="form-checkbox-label-right" for="search_contract_type-Freelance"> Freelance </label>
+                                <input class="form-input-checkbox" name="agency" id="agency" type="checkbox" checked="" />
+                                <label class="form-checkbox-label-right" for="agency"> Cabinet/SSII </label>
+                            </div>
+                        </div>
+                        <div class="top-bar hide">
+                            <div class="search-label pull-left">
+                                Vous consultez les offres :
+                                <span> <h2> Tous les contrats </h2> <a href="#" class="reset"> reset </a> </span>
+                            </div>
+                            <div class="pull-right">
+                                <a class="multi-line-button white" id="jobs-subscribe" href="#"> <span class="medium">Souscrire a cette recherche</span> </a>
+                            </div>
+                        </div>
+                        <div id="ajax-search-overlay">
+                            <div id="search_results">
+                                <p style="display: none;"> <span id="current-cat">Tous</span> </p>
+                                <ul class="jobs-list">
+
+                                    <% for(var i=0; i < companies.length; i++) { %>
+                                    <li class="job-item clearfix" data-job-id=""> <a href="#" class="heart "></a>
+                                        <div class="companies-infos">
+
+<span class="job-details-left"> <a class="company" href="/companies/<%= companies[i] %>"><%= companies[i] %></a><span></span> </span>
+                                        </div>
+                                    </li>
+                                    <% } %>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <aside>
+                        <div class="stripped">
+<a class="createcv" href="#"> <span class="hand"></span> <span class="text"> <span class="headline">Cr&eacute;er mon profil</span> <span class="baseline">Et postuler en 1 clic</span> </span> </a>
+                        </div>
+                        <div class="desc">
+                            <strong>Remixjobs</strong> est devenu le site
+                            <h1>d'offres d'emploi informatique</h1> de r&eacute;f&eacute;rence. De nombreuses startups et grandes soci&eacute;t&eacute;s du web l'utilisent pour recruter les meilleurs profils sp&eacute;cialis&eacute;s.
+                        </div>
+                        <div class="aside-logos">
+                            <a class="aside-logo stumbleupon" href="/Emploi-company:stumbleupon">stumbleupon</a>
+                            <a class="aside-logo google" href="/Emploi-company:google">google</a>
+                            <a class="aside-logo deezer" href="/Emploi-company:deezer">deezer</a>
+                            <a class="aside-logo dailymotion" href="/Emploi-company:dailymotion">dailymotion</a>
+                            <a class="aside-logo meetic" href="/Emploi-company:meetic">meetic</a>
+                            <a class="aside-logo kelkoo" href="/Emploi-company:kelkoo">kelkoo</a>
+                            <a class="aside-logo yahoo" href="/Emploi-company:yahoo">yahoo!</a>
+                            <a class="aside-logo groupon" href="/Emploi-company:groupon">groupon</a>
+                            <a class="aside-logo orange" href="/Emploi-company:orange">orange</a>
+                            <a class="aside-logo netvibes" href="/Emploi-company:netvibes">netvibes</a>
+                            <a class="aside-logo ebay" href="/Emploi-company:ebay">ebay</a>
+                        </div>
+                        <div class="find-us">
+                            <ul class="social">
+                                <li class="social-el"> <a id="link_to_twitter_sidebar" href="http://twitter.com/RemixJobs" class="social-twitter" rel="external">Recevez nos offres sur Twitter</a> </li>
+                                <li class="social-el"> <a id="link_to_rss_sidebar" href="https://remixjobs.com/rss" class="social-rss" rel="external">Abonnez-vous au flux RSS</a> </li>
+                                <li class="social-el"> <a href="http://www.facebook.com/Remixjobs" class="social-facebook" rel="external">Devenez Fan sur Facebook</a> </li>
+                            </ul>
+                        </div>
+                        <div class="small-banner">
+                            <a href="http://itunes.apple.com/us/podcast/remixjobs-le-podcast-des-metiers/id465896345" target="_blank" rel="external"> <img src="https://d20j79yoy9sq5.cloudfront.net/assets/0/images/banner/banner_small.png?0" alt="podcast" /> </a>
+                        </div>
+                    </aside>
+                </form>
+            </div>
+        </section>
+        <footer class="site-footer">
+            <div class="wrapper site-footer-wrapper">
+                <div class="site-footer-column first-column">
+                    <h4 class="site-footer-title">A propos de RemixJobs</h4>
+                    <ul class="links-list">
+                        <li class="link-wrapper"> <a class="link" href="/a-propos">&Agrave; propos</a> </li>
+                        <li class="link-wrapper"> <a class="link" href="/presse">Presse</a> </li>
+                        <li class="link-wrapper last"> <a class="link" href="/contact">Contact</a> </li>
+                    </ul>
+                </div>
+                <div class="site-footer-column second-column">
+                    <ul class="links-list">
+                        <li class="link-wrapper"> <a class="link" href="/informations-legales">Informations l&eacute;gales</a> </li>
+                        <li class="link-wrapper"> <a class="link" href="/cgu">CGU</a> &amp; <a class="link" href="/cgv">CGV</a> </li>
+                        <li class="link-wrapper last"> <a class="link" href="http://blog.remixjobs.com" target="_blank">Blog</a> </li>
+                    </ul>
+                </div>
+                <div class="site-footer-column">
+                    <h4 class="site-footer-title">SERVICES</h4>
+                    <ul class="links-list">
+                        <li class="link-wrapper"> <a class="link" href="/">Offres d'emploi</a> </li>
+                        <li class="link-wrapper"> <a class="link" href="/employer/wizard">Poster une offre</a> </li>
+                        <li class="link-wrapper last"> <a class="link" href="/cv/new/step1">Cr&eacute;er mon CV</a> </li>
+                    </ul>
+                </div>
+                <div class="site-footer-column">
+                    <h4 class="site-footer-title">retrouvez-nous aussi</h4>
+                    <ul class="links-list">
+                        <li class="link-wrapper"> <a class="link" href="http://twitter.com/RemixJobs" rel="external">Twitter</a> </li>
+                        <li class="link-wrapper"> <a class="link" href="http://www.facebook.com/Remixjobs" rel="external">Facebook</a> </li>
+                        <li class="link-wrapper last"> <a class="link" href="https://remixjobs.com/rss" rel="external">RSS</a> </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="wrapper">
+                <p class="copyright"> Copyright &copy;2014 RemixJobs. All Rights Reserved. </p>
+            </div>
+        </footer>
+        <div id="followup_modal" style="display:none">
+            <ul class="menu follow_menu">
+                <li class="first active" id="email_t"><a class="followup_tab_link" href="#">Email</a></li>
+                <li id="twitter_t"><a class="followup_tab_link" href="#">Twitter</a></li>
+                <li id="rss_t"><a class="followup_tab_link" href="#">RSS</a></li>
+                <li class="last" id="facebook_t"><a class="followup_tab_link" href="#">Facebook</a></li>
+            </ul>
+            <div id="email_tab" class="followup_tab">
+                <input id="subscribe_b" type="button" name="subscribe" value="Souscrire &agrave; cette recherche" class="btn-blue submit" />
+            </div>
+            <div id="twitter_tab" class="followup_tab">
+                <div class="content-form">
+                    <p class="title">1. Vous ne poss&eacute;dez pas de compte Twitter ?</p>
+                    <p><a href="http://twitter.com/">Cr&eacute;ez-vous un compte twitter</a> </p>
+                    <p class="title">2. Vous poss&eacute;dez un compte Twitter ? </p>
+                    <p>Suivez <a href="http://twitter.com/RemixJobs" id="link_to_twitter">@RemixJobs</a> afin de pouvoir &ecirc;tre tenu inform&eacute; des derni&egrave;res offres d’emplois.</p>
+                </div>
+            </div>
+            <div id="rss_tab" class="followup_tab">
+                <div class="content-form">
+                    <p>Glisser/D&eacute;poser ce lien dans votre lecteur RSS :</p>
+                    <p><a href="https://remixjobs.com/rss" id="link_to_rss" class="rss"><span class="icon"></span>https://remixjobs.com/rss</a></p>
+                    <form action="#" class="std-form-elements">
+                        <div class="form-row">
+                            <label for="subscribe_email" class="form-label">Ou copiez/collez son addresse :</label>
+                            <div class="form-element">
+                                <div class="input-wrapper">
+                                    <input type="text" name="rss" id="subscribe-rss" value="https://remixjobs.com/rss" class="form-input-text" />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="facebook_tab" class="followup_tab">
+                <div class="content-form">
+                    <p>Devenez vite Fan pour &ecirc;tre tenu inform&eacute; des nouvelles offres.</p>
+                    <a href="http://www.facebook.com/Remixjobs" class="facebook"><img src="https://d20j79yoy9sq5.cloudfront.net/assets/0/images/img-subscribefb.png?0" alt="facebook" /></a>
+                </div>
+            </div>
+        </div>
+        <noscript>
+            <div class="no-script-header">
+                RemixJobs fonctionne mieux avec le Javascript activ&eacute;
+            </div>
+        </noscript>
+            </body>
+</html>

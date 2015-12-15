@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- logging Javascript errors -->
+<script>'js log url not defined';</script>
+<meta charset="utf-8" />
+<!-- empty -->
+<meta name="description" content="Plus de 10000 offres d'emploi informatique et freelances. Remixjobs sp&eacute;cialiste du recrutement informatique : consultant ing&eacute;nieur d&eacute;veloppeur designer int&eacute;grateur chef de projet ..." />
+<meta name="apple-itunes-app" content="app-id=588567446, affiliate-data=none, app-argument=https://remixjobs.com/" />
+<meta property="fb:app_id" content="362189248342" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="remixjobs" />
+<meta property="og:url" content="https://remixjobs.com/" />
+<meta property="og:title" content="Emploi informatique et recrutement freelance - RemixJobs" />
+<meta property="og:description" content="Plus de 10000 offres d'emploi informatique et freelances. Remixjobs sp&eacute;cialiste du recrutement informatique : consultant ing&eacute;nieur d&eacute;veloppeur designer int&eacute;grateur chef de projet ..." />
+<meta property="og:image" content="https://remixjobs.com/images/press/logos/logo2-450-140.png" />
+<meta itemprop="name" content="remixjobs" />
+<meta itemprop="description" content="Plus de 10000 offres d'emploi informatique et freelances. Remixjobs sp&eacute;cialiste du recrutement informatique : consultant ing&eacute;nieur d&eacute;veloppeur designer int&eacute;grateur chef de projet ..." />
+<meta itemprop="image" content="https://remixjobs.com/images/press/logos/logo2-450-140.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@remixjobs" />
+<meta name="twitter:title" content="Emploi informatique et recrutement freelance - RemixJobs" />
+<meta name="twitter:description" content="Plus de 10000 offres d'emploi informatique et freelances. Remixjobs sp&eacute;cialiste du recrutement informatique : consultant ing&eacute;nieur d&eacute;veloppeur designer int&eacute;grateur chef de projet ..." />
+<meta name="twitter:image" content="https://remixjobs.com/images/press/logos/logo2-450-140.png" />
+<meta name="Language" content="fr" />
+<title>
+Offres d'emploi de <%=currentCompany%> - Remixjobs    </title>
+<link href="https://d20j79yoy9sq5.cloudfront.net/assets/0/css/1b5eddb.css?0" rel="stylesheet" />
+<link href="https://d20j79yoy9sq5.cloudfront.net/assets/0/css/43e5d30.css?0" rel="stylesheet" />
+<link rel="stylesheet" href="https://d20j79yoy9sq5.cloudfront.net/assets/0/css/74e6655.css?0" />
+<link rel="alternate" type="application/rss+xml" title="Remixjobs, le site d'emploi sp&eacute;cialis&eacute; dans les m&eacute;tiers du web et de l'informatique" href="https://remixjobs.com/rss" />
+<!--[if lt IE 9]>
+<script src="https://d20j79yoy9sq5.cloudfront.net/assets/0/js/0ed8706.js?0"></script>
+<![endif]-->
+<link rel="icon" href="https://d20j79yoy9sq5.cloudfront.net/assets/0/themed/blue/images/favicon-remixjobs.ico" type="image/x-icon" />
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript>
+<iframe class="iframe" height="0" src="//www.googletagmanager.com/ns.html?id=GTM-TKRTTT" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<script type="text/javascript">
+//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKRTTT');
+//]]>
+</script>
+<!-- End Google Tag Manager -->
+<div id="topbar">
+<a class="service" href="#">Tous nos services</a>
+<div class="service-dropdown">
+<h3>Nos services</h3>
+<ul>
+<li class="yellow"> <a href="/employer/wizard?utm_source=remixjobs.com&amp;utm_medium=nos_offres&amp;utm_campaign=remixjobs"> Poster une offre <span>Trouver le bon talent d&egrave;s maintenant</span> </a> </li>
+<li class="pink"> <a href="http://cvtheque.remixjobs.com/"> Cvth&egrave;que <span>Parcourez plus de 40 000 profils de d&eacute;veloppeurs</span> </a> </li>
+<li class="green"> <a href="http://remixjobsday.com" title="Evenements Remixjobs"> Recruter durant nos &Eacute;v&eacute;nements <span>Rencontre entre d&eacute;veloppeurs et startups</span> </a> </li>
+</ul>
+</div>
+<div class="pull-right">
+<a class="login" href="/login">Connexion</a>
+</div>
+</div>
+<header class="site-header">
+<div class="wrapper holder">
+<a class="logo" href="/jobs"> <img src="https://d20j79yoy9sq5.cloudfront.net/assets/0/themed/blue/images/logo-remixjobs.png" alt="remixjobs" /> </a>
+<div class="header-links">
+<!-- - if not is_granted('ROLE_MEMBER') -->
+<!-- %a.signin(href=path("rj_core_login", { 'redirect': '/account' })) = "header.sign.in.link"|trans -->
+<a class="recuit" href="/jobs/creation">Cr&eacute;er un annonce</a>
+</div>
+</div>
+</header>
+<!-- empty -->
+<section id="content">
+<div class="wrapper subcontent">
+<div class="two-columns right">
+<div class="company-title">
+<h1><%=currentCompany%></h1>
+</div>
+<div class="descr_actions">
+<a class="multi-line-button white company-follow" href="#"> <span class="medium favorite"> Suivre </span> </a>
+<a class="multi-line-button white share-btn" href="#"> <span class="st_sharethis_custom medium share"> Partager </span> </a>
+</div>
+<div class="clear"></div>
+<div class="bg-tabs">
+<table class="tabs" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="tab mail current"> <a class="tab-link" href="#">Offres d'emploi</a> </td>
+<td class="tab activity "> <a class="tab-link" href="#">A propos</a> </td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<ul class="jobs-list">
+<div class="clear"></div>
+<% for(var i=0; i < jobs.length; i++) {  %>
+    <li class="job-item clearfix " data-job-id="<%= jobs[i]._id %>">
+<a href="#" class="heart "></a>
+<div class="job-infos">
+    <h3 class="job-title"> <a class="job-link" href="/jobs/details/<%= jobs[i]._id %>" rel="external"><%=jobs[i].title %></a> </h3>
+<a class="contract clearfix" href="#" data-contract-type="<%=jobs[i].contract %>"><%=jobs[i].contract %></a>
+    <div class="job-details">
+<span class="job-details-left"><a class="company" href="companies/<%=jobs[i].company %>" data-company-name="<%=jobs[i].company %></a>, <a class="workplace" href="#" data-workplace-name="<%=jobs[i].localization %>"><%=jobs[i].localization %></a> </span>
+    <span class="job-details-right"><%=jobs[i].date %></span>
+    </div>
+    </div> </li>
+<% } %>
+
+</ul>
+
+
+</div>
+<div class="clearer"></div>
+<div class="col left"></div>
+<div class="col right"></div>
+</div>
+</section>
+<footer class="site-footer">
+<div class="wrapper site-footer-wrapper">
+<div class="site-footer-column first-column">
+<h4 class="site-footer-title">A propos de RemixJobs</h4>
+<ul class="links-list">
+<li class="link-wrapper"> <a class="link" href="/a-propos">&Agrave; propos</a> </li>
+<li class="link-wrapper"> <a class="link" href="/presse">Presse</a> </li>
+<li class="link-wrapper last"> <a class="link" href="/contact">Contact</a> </li>
+</ul>
+</div>
+<div class="site-footer-column second-column">
+<ul class="links-list">
+<li class="link-wrapper"> <a class="link" href="/informations-legales">Informations l&eacute;gales</a> </li>
+<li class="link-wrapper"> <a class="link" href="/cgu">CGU</a> &amp; <a class="link" href="/cgv">CGV</a> </li>
+<li class="link-wrapper last"> <a class="link" href="http://blog.remixjobs.com" target="_blank">Blog</a> </li>
+</ul>
+</div>
+<div class="site-footer-column">
+<h4 class="site-footer-title">SERVICES</h4>
+<ul class="links-list">
+<li class="link-wrapper"> <a class="link" href="#">Offres d'emploi</a> </li>
+<li class="link-wrapper"> <a class="link" href="/employer/wizard">Poster une offre</a> </li>
+<li class="link-wrapper last"> <a class="link" href="/cv/new/step1">Cr&eacute;er mon CV</a> </li>
+</ul>
+</div>
+<div class="site-footer-column">
+<h4 class="site-footer-title">retrouvez-nous aussi</h4>
+<ul class="links-list">
+<li class="link-wrapper"> <a class="link" href="http://twitter.com/RemixJobs" rel="external">Twitter</a> </li>
+<li class="link-wrapper"> <a class="link" href="http://www.facebook.com/Remixjobs" rel="external">Facebook</a> </li>
+<li class="link-wrapper last"> <a class="link" href="https://remixjobs.com/rss" rel="external">RSS</a> </li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+<div class="wrapper">
+<p class="copyright"> Copyright &copy;2014 RemixJobs. All Rights Reserved. </p>
+</div>
+</footer>
+<noscript>
+<div class="no-script-header">
+RemixJobs fonctionne mieux avec le Javascript activ&eacute;
+</div>
+</noscript>
+<script type="text/javascript">
+//<![CDATA[
+var require= {"baseUrl":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/scripts\/modules\/","cacheVersion":0,"urlArgs":"v=0","waitSeconds":30,"paths":{"core":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/core\/js","employer":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/employer\/js","admin":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/admin\/js","jobseeker":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/nonemployer\/js","payment":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/payment\/js","media":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/media\/js","fselectmenu":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fselectmenu\/js\/modules","affiliate":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/affiliate\/js","rjcvclient":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjcvclient\/js","rjmap":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/rjmap\/js","fpswfupload":"https:\/\/d20j79yoy9sq5.cloudfront.net\/assets\/0\/bundles\/fpswfupload\/js\/swfupload"}};
+var CACHE_VER = require.cacheVersion;
+
+//]]>
+</script>
+<script src="https://d20j79yoy9sq5.cloudfront.net/assets/0/js/573933b.js?0"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['affiliate/referrer', 'jquery', 'jquery.cookie'], function(r) {
+r.init();
+
+$(document).ready(function(){
+$('#topbar .service-dropdown, #topbar .account-dropdown').show();
+
+$('#topbar .service, #topbar .account').click(function(event){
+event.preventDefault();
+event.stopPropagation();
+$(this).next('div').toggleClass('visible');
+});
+
+$('body').click(function(){
+if($('.service-dropdown').hasClass('visible')) {
+$('.service-dropdown').removeClass('visible');
+}
+
+if ($('.account-dropdown').hasClass('visible')) {
+$('.account-dropdown').removeClass('visible');
+}
+});
+window.professionsContent = $.parseJSON(decodeURIComponent($.cookie('professions')));
+});
+
+
+});
+
+define("jquery", function() {
+return jQuery;
+});
+
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+$(function() {
+require(['flashMessages'], function(flash) {
+var messages = {"errors":[],"notices":[],"valids":[]};
+
+var i = null;
+
+i = messages['errors'].length;
+while (i--) {
+flash.show(messages['errors'][i], 'error', true);
+}
+
+i = messages['notices'].length;
+while (i--) {
+flash.show(messages['notices'][i], 'notice', true);
+}
+
+i = messages['valids'].length;
+while (i--) {
+flash.show(messages['valids'][i], 'valid', true);
+}
+});
+});
+//]]>
+</script>
+<script src="//ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(document).on('click', '.company-follow', function(e){
+e.preventDefault();
+var $that = $(this);
+$.ajaxSetup({global: false});
+$.post($(this).attr('href'), {}, function(data){
+require(['flashMessages'], function(flash){
+if (data.success) {
+$that.attr('href', "/company/delete-followed");
+$('.favorite', $that).text("Ne plus suivre");
+$that.removeClass('company-follow').addClass('company-follow-remove');
+$('.company-follow-remove').attr('data-company-id', data.companyId);
+flash.show("Vous tes dŽsormais abonnŽ au flux dÕactivitŽ de cette sociŽtŽ");
+} else {
+flash.show("Ooops! Something went wrong.", "error");
+}
+});
+}).error(function(data){
+if (data.status == 401) {
+require(['flashMessages'], function(flash){
+flash.show("Vous tes dŽsormais abonnŽ au flux dÕactivitŽ de cette sociŽtŽ", 'notice');
+});
+}
+});
+$.ajaxSetup({global: true});
+});
+
+
+$(document).on('click', '.company-follow-remove', function(e) {
+e.preventDefault();
+var $that = $(this);
+var requestData = {
+company_un_follow: {
+_token: "DmjsL218pGeURIiTLklHCojgn2Kxc73tK-hYPwlRrno",
+id: $(this).attr('data-company-id')
+}
+};
+
+$.post($(this).attr('href'), requestData, function(data) {
+require(['flashMessages'], function(flash) {
+console.log(data);
+if (data.success) {
+$that.attr('href', "/company/109461/follow");
+$('.favorite', $that).text("Suivre");
+$that.removeClass('company-follow-remove').addClass('company-follow');
+} else {
+flash.show(data.errors.join(' '), 'error');
+}
+});
+});
+});
+$(function() {
+$('.facebook').html(
+$('<iframe />').attr({
+src: "http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fremixjobs.com%2Fcompany%2FCHEVAL-DE-TROIE%2F109461%2Frecrutement-web&send=false&layout=standard&width=205&show_faces=true&action=like&colorscheme=light&font&amp;height=30&appId=96048865821",
+scrolling: "no",
+frameborder: "0",
+style: "border:none; overflow:hidden; width:205px; height:30px;",
+allowTransparency: "true"
+})
+);
+});
+
+stLight.options({publisher:'d0354f32-ec1a-4ca5-87e2-4027afdaa140', onhover: false});
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+require(['flashMessages', 'favorite'], function(flash, favorite) {
+$(document).delegate('.job-item .heart', 'click', function(e) {
+e.preventDefault();
+
+var $elem = $(this);
+var $item = $elem.closest('.job-item');
+var id = $item.attr('data-job-id');
+var method = $elem.hasClass('active') ? 'DELETE' : 'POST';
+
+$elem.toggleClass('active');
+var $count = $('.count-favorite');
+var favorite_count = parseInt($count.attr('data-count'));
+$count.html(method == 'DELETE' ? favorite_count-1 : favorite_count+1);
+$count.attr('data-count', method == 'DELETE' ? favorite_count-1 : favorite_count+1);
+
+var callback = function(is_error) {
+if (is_error) {
+$elem.toggleClass('active');
+$count.html(favorite_count);
+$count.attr('data-count', favorite_count);
+}
+}
+favorite.toggle(!$elem.hasClass('active'), id, callback);
+});
+});
+
+
+//]]>
+</script>
+<script type="text/javascript">
+if (AntiMattr == null || typeof(AntiMattr) != 'object') { var AntiMattr = window.AntiMattr = {}; }
+AntiMattr.GoogleAnalytics = {};
+
+AntiMattr.GoogleAnalytics.onGatLoad = function(callback) {
+if (typeof _gat != "undefined") {
+callback();
+} else {
+var listener = this;
+setTimeout(function(){
+listener.onGatLoad(callback);
+},100);
+}
+};
+
+AntiMattr.GoogleAnalytics.notifyEvent = function(tracker, category, action, label, value) {
+var event = [tracker + '_trackEvent', category, action];
+if (typeof label != 'undefined') {
+event.push(label);
+if (typeof value != 'undefined') {
+event.push(value);
+}
+}
+_gaq.push(event);
+};
+
+if ( _gaq == null || typeof(_gaq) != 'array') { var _gaq = window._gaq = []; }
+
+_gaq.push(['googleanalytics._setAccount', 'UA-9504700-1']);
+
+_gaq.push(['googleanalytics._setDomainName', 'remixjobs.com']);
+
+_gaq.push(['googleanalytics._setAllowAnchor', false ]);
+
+_gaq.push(['googleanalytics._setAllowLinker', true ]);
+
+_gaq.push(['googleanalytics._setAllowHash', false ]);
+
+
+
+
+if (window.location.hash) {
+_gaq.push(['googleanalytics._trackPageview', "#" + window.location.hash]);
+} else {
+_gaq.push(['googleanalytics._trackPageview', "#"]);
+}
+
+
+
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</body>
+</html>
