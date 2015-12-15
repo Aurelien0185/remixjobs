@@ -27,7 +27,7 @@ GET: Return all jobs of the current day --> **jobs/updates**
 ex. `http://localhost:3000/jobs/latest`
 
 GET: Return all companies --> **/companies/**  
-ex. `http://localhost:3000/companies`
+ex. `http://localhost:3000/companies`  
 GET: Return all jobs of a given company --> **/companies/***  
 ex. `http://localhost:3000/companies/Parrot`
 
