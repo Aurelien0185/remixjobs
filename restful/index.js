@@ -2,20 +2,25 @@ const express = require('express');
 const app = express();
 const bodyParser  = require('body-parser');
 
-app.set('view engine', 'ejs');
-app.set('views', __dirname + '/views');
-
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
 
 /*
- *  Main Route Logics
+ *  Job Router
  */
-app.use('/jobs', require('./router'));
-app.use('/companies', require('./companies'));
+app.use('/jobs', require('./job_router'));
+
+/*
+ *  Company Router
+ */
+app.use('/companies', require('./company_router'));
+
+/*
+ *  Scrape
+ */
 app.use('/scrape', function(req, res) {
         const scraper = require('./scraper');
-        const url = "https://remixjobs.com/?page=31&in=all";
+        const url = "https://remixjobs.com";
         scraper(url);
         res.send("scrape succeed!");
 });
