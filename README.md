@@ -23,11 +23,11 @@ Get: update a job: **jobs/updates/***
 Post: update a job: **jobs/updates**  
 Get: display latest job: **/jobs/latest**
 
-Get: Return all companies: **/companies/**
+Get: Return all companies: **/companies/**  
 Get: Return all jobs of a given company: **/companies/***
 
-Program-level Use:
-Scrape data:  **/scrape**
+Program-level Use:  
+Scrape data:  **/scrape**  
 P.s. If you want to scrape data by yourself, please dont forget to change the code:
 `const url = "https://remixjobs.com/?page=31&in=all";`
 In case many SAME date in the database
