@@ -28,7 +28,7 @@ ex. `http://localhost:3000/jobs/latest`
 
 GET: Return all companies --> **/companies/**  
 ex. `http://localhost:3000/companies`  
-GET: Return all jobs of a given company --> **/companies/***  
+GET: Return all jobs of a given company --> **/companies/:company**  
 ex. `http://localhost:3000/companies/Parrot`
 
 Program-level Use:  
