@@ -17,10 +17,13 @@ All copyright ownes by  `RemixJobs`. This is just an exercise, not allowed for b
 
 GET: Return all jobs --> **/jobs**  
 ex. `http://localhost:3000/jobs`  
+
 POST: Create a new job --> **/jobs?job={json_string}**  
 ex. `http://localhost:3000/jobs?job={"title":1, "company":2,"contract":3}`  
+
 GET: Return information of a job --> **/jobs/details/:id**  
 ex. `http://localhost:3000/jobs/details/567004142c33a91102c200b0`  
+
 PUT: Update a job --> **jobs/:id**  
 ex. `http://localhost:3000/jobs/567004142c33a91102c200b0?contract=CDD`  
 GET: Return all jobs of the current day --> **jobs/updates**  
