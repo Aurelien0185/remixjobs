@@ -16,10 +16,15 @@ All copyright ownes by  `RemixJobs`. This is just an exercise, not allowed for b
 ## Routers
 
 Return all jobs: GET --> **/jobs**  
-Create a new job: POST --> **/jobs/create?job={}**  
-Return information of a job: GET-> **/jobs/details/:id***  
-Update a job: PUT-> **jobs/details/:id?***  
+ex. `http://localhost:3000/jobs`
+Create a new job: POST --> **/jobs?job={json_string}**  
+ex. `http://localhost:3000/jobs?job={"title":1, "company":2,"contract":3}`
+Return information of a job: GET-> **/jobs/:id***  
+ex. `http://localhost:3000/jobs/567004142c33a91102c200b0`
+Update a job: PUT-> **jobs/:id***  
+ex. `http://localhost:3000/jobs/567004142c33a91102c200b0?contract=CDD`
 Return all jobs of the current day: GET-> **jobs/updates**  
+ex. `http://localhost:3000/jobs/567004142c33a91102c200b0`
 
 Get: Return all companies: **/companies/**  
 Get: Return all jobs of a given company: **/companies/***
