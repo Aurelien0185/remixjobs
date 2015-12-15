@@ -1,5 +1,5 @@
 # remixjobs
-# Unofficial restful API for RemixJobs
+Unofficial restful API for RemixJobs
 
 ## Introduction
 
