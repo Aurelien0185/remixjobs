@@ -15,13 +15,11 @@ All copyright ownes by  `RemixJobs`. This is just an exercise, not allowed for b
 
 ## Routers
 
-Get: Return all jobs: **/jobs**  
-Get: Create a new job: **/jobs/creation**  
-Post: Create a new job:  **/jobs/creation**  
-Get: Show the details of a job: **/jobs/details/***  
-Get: update a job: **jobs/updates/***  
-Post: update a job: **jobs/updates**  
-Get: display latest job: **/jobs/latest**
+Return all jobs: GET --> **/jobs**  
+Create a new job: POST --> **/jobs/create?job={}**  
+Return information of a job: GET-> **/jobs/details/:id***  
+Update a job: PUT-> **jobs/details/:id?***  
+Return all jobs of the current day: GET-> **jobs/updates**  
 
 Get: Return all companies: **/companies/**  
 Get: Return all jobs of a given company: **/companies/***
